@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid px-sm-5 py-sm-3 sticky-sm-top border-bottom shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/starbucks.svg" class="w-100" style="height: 50px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav my-3 my-sm-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold"href="#">STARBUCKS REWARD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">KAMPANYALAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">E-GIFT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">KURUMSAL SATIS</a>
+            </li>
+          </ul>
+          <div class="nav-right ms-auto d-flex flex-column flex-sm-row gap-3 pt-3 pt-sm-0 mt-sm-0">
+            <div class="left-btns d-flex gap-2 gap-sm-4 align-items-center">
+              <button class="btn btn-dark text-light" onclick="darkMode()">Dark</button>
+              <a href="#" class="fw-bolder text-decoration-none text-success">Magazalarimiz</a>
+              <a href="#" class="btn btn-success fw-bolder rounded-pill me-3">Alisverise Basla</a>
+            </div>
+            <div class="right-btns d-flex gap-3">
+              <a href="#" id="login-btn" class="btn btn-outline-dark fw-bolder rounded-pill">Giris</a>
+              <a href="#" class="btn btn-dark fw-bolder rounded-pill">Hemen Katil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+    
+    <!-- MAIN SECTION -->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="main-left col-12 col-sm-5 p-0 sticky-sm-top mt-4 z-0" style="height: 100vh;"><img src="img/s-ratanak-aScuVWpmDcQ-unsplash.jpg" 
+          class="w-100"
+          height="100%"></div>
+        <div class="main-right col-12 col-sm-7 p-4">
+
+          <!-- BANNER ARTICLE -->
+          <article class="banner">
+            <div class="banner-img mb-5"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiZGViOWQxZGUtYjVkZS00YWM3LWIyMTItN2QxYTZiNTJhOGQ0IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+            <div class="banner-text px-sm-5">
+              <h4 class="mb-4">Sevilen lezzet Toffee Nut geri döndü!</h4>
+              <p class="lead">Sezonun özlenen lezzeti, Toffee Nut ailesi yeniden aramızda. İster sıcak, ister soğuk; Latte, Cold Brew veya Frappuccino® seçenekleriyle karamelize fındık aromalı Toffee Nut ailesi mağazalarımızda seni bekliyor! 😊 Dilersen Starbucks® Delivers ile GetirYemek veya Yemeksepeti üzerinden de bulunduğun yere sipariş verebilirsin. 🛵</p>
+              <div class="banner-buttons d-flex gap-3">
+                <a href="#" class="btn btn-success rounded-pill fw-bolder">GetirYemek</a>
+                <a href="#" class="btn btn-outline-success rounded-pill fw-bolder">Yemeksepeti</a>
+              </div>
+            </div>
+          </article>
+          <!-- BANNER ARTICLE END -->
+
+          <!-- ARTICLES -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiODliOTQ1YTgtNTEyNi00NDQ4LWFmNzQtOTFjZGU4N2FmNzkzIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Starbucks®'tan Açıklamalar</h3>
+                <p>Starbucks® hakkında basında ve sosyal medyada sürekli olarak gerçeği yansıtmayan haberlerin ve yanıltıcı bilgilerin paylaşılması nedeniyle Starbucks®'a yöneltilen en sık sorulardan bazılarını derledik. Bu soruların yanıtlarını paylaşmak isteriz.</p>
+                <a href="" class="btn btn-success rounded-pill fw-bolder">Daha fazla bilgi</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiODc2MmRkMjEtZTMwOS00MGI4LTk3ODktMjllMTg5ZjdlNDk2IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Starbucks® Türkiye olarak attığımız her adım daha iyi yarınlar için.</h3>
+                <p>Yarınları düşünenlerle #KalpKalbe çıktığımız yolculuklarda hedefimiz her zaman daha iyi bir gelecek.</p>
+                <a href="" class="btn btn-success rounded-pill fw-bolder">Projelerimiz Hakkinda Detayli Bilgi</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiODNhM2NlOWMtMGZlYy00ZmVmLWI1NmItYjQ2NTNjMDIzODg0IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Nice 20 yıllara 💚</h3>
+                <p>Tam 20 yıldır Türkiye'nin dört bir yanında keyifli sohbetleri, mutlu anları ve yeni deneyimleri bir kahveye sığdırmanın mutluluğunu yaşıyoruz. Bu yolculukta bize eşlik eden tüm kahve severler, iyi ki varsınız! ☕✨</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiNWRlMmE3MzUtNWZhYS00NWRkLWFlZTMtMTllODgwZTE1NDM5IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Dilediğin Gibi Öde Yıldız Kazan! <br>⭐</h3>
+                <p>Starbucks® Mobil’de yeni dönem başladı! Ödemeni nakit, kredi kartı veya Starbucks® Mobil ile yap, tüm harcamalarında yıldız kazan!</p>
+                <a href="" class="btn btn-success rounded-pill fw-bolder">Detayli Bilgi</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiNTFjNmQwMDUtN2RkMy00ZmU1LWE4Y2YtNTJlNTM1Mjk0MDQ1IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Yeni koleksiyonumuzu keşfet! <br>🎁</h3>
+                <p>Sevdiklerini mutlu edecek, yepyeni Starbucks® kupa, termos ve aksesuarlarımızı keşfetmeye ne dersin? 🛍️ Hepsiburada, Shayakahve.com.tr ve mağazalarımızda seni bekliyor! 👇🏻</p>
+                <div class="article-buttons d-flex gap-3">
+                  <a href="#" class="btn btn-success rounded-pill fw-bolder">Hepsiburada</a>
+                  <a href="#" class="btn btn-outline-success rounded-pill fw-bolder">Shaya Kahve</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiNWJjNjQ5YzktMGFlNS00ZWU4LWI2M2YtNTU0YWU0M2VjNzFkIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <p>Starbucks® Delivers ile siparişini ver, sen neredeysen kahven oraya gelsin!</p>
+                <div class="article-buttons d-flex gap-3">
+                  <a href="#" class="btn btn-success rounded-pill fw-bolder">Yemeksepeti</a>
+                  <a href="#" class="btn btn-outline-success rounded-pill fw-bolder">GetirYemek</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiN2JlMTYzY2QtMDZiZC00M2IwLWI2MmMtNTlmZWJmZTUyZGQ1IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <p>Starbucks® Mobil Uygulaması’nın ayrıcalıklı dünyası ve güncel kampanyalardan haberdar ol.</p>
+                <div class="article-buttons d-flex gap-3">
+                  <a href="#" class="btn btn-success rounded-pill fw-bolder">Hemen Incele</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiMTkyOTk2NDgtZTVhOS00NTk2LWE4ZDktNDQ2NjE5ZmE2NDg4IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Arabaya servis ile ara vermeden yolculuğuna lezzet kat!</h3>
+                <p>Aracından inmeden Starbucks® Drive Thru mağazalarımızdan siparişini ver, ara vermeden yolculuğuna lezzet kat! 🚗 Şimdilik sınırlı mağazalarımızda: 📍Şekerpınar 📍Manavgat 📍Balıkesir O204 📍Ankara Vega Cadde Yeni Drive Thru lokasyonlarımız için starbucks.com.tr'yi ziyaret etmeyi ve bizi sosyal medya hesaplarımızdan takip etmeyi unutma!</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Next Article -->
+
+          <article class="my-5 my-sm-3">
+            <div class="row p-sm-4">
+              <div class="col-12 col-sm-6 bg-primary p-0"><img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzlkNGE2MjcwM2Y1NDc4MmI5NDg4M2I4NDg5NTE5YTEiLCJ0aW1lc3RhbXAiOjE3MDYzNDYxNzc4OTgsImNsYWltcyI6e30sImlhdCI6MTcwNjM0NjE3NywiZXhwIjoxNzA2MzQ2NDc3LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.w-QDtX1LeqG534WIZMMM4BJRzXZozsp4XzZHGjag46c&data=eyJpbWFnZUlkIjoiZThkOGQ4MjItMWRjNS00MGQ3LTllMDgtYTI0YjYxY2NjYjMyIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&" width="100%"></div>
+              <div class="col-12 col-sm-6 mt-3 mt-sm-0 p-0 px-sm-3">
+                <h3 class="fw-bold">Eşsiz bir deneyim seni bekliyor!</h3>
+                <p>Egzotik bölgelerden nadir kahve çekirdeklerini özenle topladık ve Milano Roastry’de ustalıkla kavurduk. Her fincan kahve ayrı bir hikaye demek ve belki de bu hikayenin bir daha tekrarı yok!</p>
+                <div class="article-buttons d-flex gap-3">
+                  <a href="#" class="btn btn-success rounded-pill fw-bolder">Detayli Bilgi</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+            
+          <!-- FOOTER UPPER SECTION --> 
+
+          <hr>
+          <div class="accordion py-5" id="accordionExample">
+            <!-- FOOTER HAKKIMIZDA -->
+            <div class="accordion-item border-0 my-3 py-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Hakkimizda
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li class="my-2 fw-bold text-secondary">Tarihce</li>
+                    <li class="my-3 fw-bold text-secondary">Sirketimiz</li>
+                    <li class="my-3 fw-bold text-secondary">Magazalarimiz</li>
+                    <li class="my-3 fw-bold text-secondary">Starbucks'tan haberler</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- FOOTER KAHVE -->
+            <div class="accordion-item border-0 my-3 py-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Kahve
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li class="my-2 fw-bold text-secondary">Starbucks Reserve</li>
+                    <li class="my-3 fw-bold text-secondary">Kahve Tedarigi & Kavurma & Harmanlama</li>
+                    <li class="my-3 fw-bold text-secondary">Kavurma Profiline Gore Kahveler</li>
+                    <li class="my-3 fw-bold text-secondary">Nasil Mukemmel Kahve Hazirlanir</li>
+                    <li class="my-3 fw-bold text-secondary">Kahve SSS</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- FOOTER SOSYAL SORUMLULUK -->
+            <div class="accordion-item border-0 my-3 py-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Sosyal Sorumluluk
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li class="my-2 fw-bold text-secondary">Etik Ticaret</li>
+                    <li class="my-3 fw-bold text-secondary">Topluma katki</li>
+                    <li class="my-3 fw-bold text-secondary">Yardim Calismalari</li>
+                    <li class="my-3 fw-bold text-secondary">Cevre</li>
+                    <li class="my-3 fw-bold text-secondary">Cesitlilik</li>
+                    <li class="my-3 fw-bold text-secondary">Surdurebilirlik</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- FOOTER STARBUCKS DELIVERS -->
+            <div class="accordion-item border-0 my-3 py-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Starbucks Delivers
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li class="my-2 fw-bold text-secondary">Yemeksepeti</li>
+                    <li class="my-3 fw-bold text-secondary">GetirYemek</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- FOOTER DOWN SECTION -->
+
+          <div class="icons">
+            <ul class="list-unstyled d-flex gap-3 px-3 m-3">
+              <li><a href="#" class=""><i class="bi bi-facebook fs-3 text-dark"></i></a></li>
+              <li><a href="#" class=""><i class="bi bi-instagram fs-3 text-dark"></i></a></li>
+              <li><a href="#" class=""><i class="bi bi-youtube fs-3 text-dark"></i></a></li>
+              <li><a href="#" class=""><i class="bi bi-twitter-x fs-3 text-dark"></i></a></li>
+              <li><a href="#" class=""><i class="bi bi-tiktok fs-3 text-dark"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer-menu mt-4">
+            <ul class="list-unstyled d-flex flex-column gap-3 px-3 m-3">
+              <li class="fw-bold text-secondary">Kisisel Veri Aydinlatma Metni</li>
+              <li class="fw-bold text-secondary">Ticari Iletisim Aydinlatma Metni</li>
+              <li class="fw-bold text-secondary">Kullanim Kosullari</li>
+              <li class="fw-bold text-secondary">Cerez Tercihleri</li>
+              <li class="fw-bold text-secondary">Cerez Aydinlatma Metni</li>
+              <li class="fw-bold text-secondary">Besin Degerleri Tablosu</li>
+              <li class="fw-bold text-secondary">Gift Card</li>
+              <li class="fw-bold text-secondary">Bize Ulasin</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+
+    
+
+    
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+      let html = document.querySelector("html")
+      
+      let loginBtn = document.querySelector("#login-btn")
+      
+      
+      function darkMode () {
+        if (html.getAttribute("data-bs-theme") == "light"){
+          html.setAttribute("data-bs-theme","dark")
+          loginBtn.setAttribute("class","btn btn-dark fw-bolder rounded-pill")
+        } else {
+          html.setAttribute("data-bs-theme","light")
+          loginBtn.setAttribute("class","btn btn-outline-dark fw-bolder rounded-pill")
+        }
+      }
+
+    </script>
+  </body>
+</html>
